@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-grow1{
+    flex-grow: 1;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-items{
+    align-items: center;
+}
+
+:root{
+    --fMontserrat: 'Montserrat';
+    --fMyriadPro: 'Myriad Pro';
+    --fWorkSans: 'Work Sans';
+    --NunitoSans: 'Nunito Sans';
+    --textColor: #191919;
+}
+/* ======================header======================= */
+
+.nav{
+    display: flex;
+    padding: 15px 0;
+    /* height: 10vh; */
+    align-items: center;
+}
+.nav-list__link{
+    font-family: var(--fMontserrat);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--textColor);
+    margin: 0 12px;
+}
+.nav-list__link:hover{
+    color: #007d2f;
+}
+
+/* ======================/header======================= */
+.main{
+    background: #f5f5f5;  
+}
+
+.main-card{
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.contacts-box__title{
+    font-family: var(--fMontserrat);
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--textColor);
+    margin-bottom: 40px;
+}
+.contacs-box__description{
+    font-family: var(--NunitoSans);
+    font-weight: 400;   
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 40px;
+}
+.contac__links-span{
+    font-family: var(--NunitoSans);
+    font-weight: 700;
+    font-size: 16px;
+    color: #171717;
+}
+.contac__links{
+    font-family: var(--NunitoSans);
+    font-weight: 400;
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 25px;
+}
+
+.form-content__box_input{
+    max-width: 300px;
+    width: 100%;
+    font-family: var(--NunitoSans);
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+    padding: 18px 18px 15px;
+    height: 50px;
+    border: none;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.form-content__box_input:nth-last-of-type(1){
+    margin-right: 0;
+}
+.form-content__box_title{
+    max-width: 635px;
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-family: var(--NunitoSans);
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+    padding: 18px 0 18px 15px;
+    margin-bottom: 30px;
+}
+.form-content__box_comment{
+    max-width: 635px;
+    width: 100%;
+    border: none;
+    height: 170px;
+    font-family: var(--NunitoSans);
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+    padding: 18px 0 0 15px;
+    margin-bottom: 30px;
+    
+}
+.btn__input{
+    font-family: var(--fMontserrat);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #007d2f;
+    padding: 20px 25px;
+    border: none;
+}
+.location{
+   
+    padding: 100px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.map-location{
+   width: 100%;
+   height: 100px;
+}
+
+
+/* ==========================footer======================= */
+.footer{
+    background: #141414;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-brand__link{
+    font-family: var(--fMontserrat);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+.footer-brand__description{
+    font-family: var(--fMyriadPro);
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer-contacts__link{
+    font-family: var(--NunitoSans);
+    font-weight: 500;
+    font-size: 15px;
+    color: #bcbcbc;
+   
+}
+.footer-contacts__number{
+    font-family: var(--fWorkSans);
+    font-weight: 500;
+    font-size: 15px;
+    color: #bcbcbc;
+    margin-bottom: 30px;
+}
+.footer-nav__list-link{
+    font-family: var(--NunitoSans);
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+    margin: 0 20px;
+}
+/* ==========================/footer=======================

@@ -1,0 +1,40 @@
+@media(max-width:991px) {
+    .main-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacs-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .main-card{
+        padding-top: 70px; 
+        padding-bottom: 20px;
+    }
+    .form-content__box {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .form-content__box_input{
+        max-width: none;
+    }
+
+    .location{
+        padding: 50px 0;
+    }
+    .footer{
+        padding: 50px 0;
+    }
+    .footer-nav{
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+}
